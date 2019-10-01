@@ -1,0 +1,37 @@
+<html>
+
+<head>
+
+	<title>
+		Guess the Number!
+	</title>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script type = "text/javascript" src="scripts/guess.js"></script>
+
+</head>
+
+<body>
+	<div class="jumbotron">
+		<h1 class="title"> Guess the NUMBER! </h1>
+		<p class="paragraph">Range: 1-19</p>
+	</div>
+
+	<div>
+		<p id="restartGameButt"></p>
+		<center><button id="startGameButt" onclick = "startGame()">Start Game</button></center>
+	</div>
+	
+	<div>
+		<center><p id="Input"></p></center>
+		<p id = "numberOfGuesses" class="textg">Number of Guesses:    </p>
+	</div>
+
+	<h1 class="text" id="outPut"></h1>
+	<h1 class="text" id="outPut1"></h1>
+	<p id="userAnswer"></p>
+
+	</body>

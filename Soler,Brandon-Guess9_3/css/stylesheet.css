@@ -1,0 +1,55 @@
+.title 
+{
+text-align: center;
+
+
+}
+
+.jumbotron 
+{
+	background-color: ;
+	color: black;
+	border: solid 6px black;
+
+}
+
+body
+{
+	background-color: black;
+}
+
+.textg
+{
+	color:white;
+	float: right;
+	font-size: 20px;
+	background-color: ;
+}
+
+p
+{
+
+	color:black;
+	font-size: 20px;
+
+
+}
+
+.buttons {
+float-bottom: 50%;
+}
+
+
+.text {
+
+	color:white;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 10%;
+}
+
+.paragraph {
+
+	color: black;
+	text-align: center;
+}
